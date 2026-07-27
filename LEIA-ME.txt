@@ -1,0 +1,32 @@
+PCERJ | FORA DO PADRÃO — PROJETO PRONTO PARA GITHUB
+
+IMPORTANTE:
+Você pode usar o mesmo webhook, mas configure-o apenas no Netlify como variável.
+Não coloque o webhook dentro dos arquivos públicos.
+
+COMO ENVIAR AO GITHUB:
+1. Descompacte este ZIP.
+2. Abra a pasta descompactada.
+3. Selecione todos os arquivos e pastas dentro dela.
+4. No GitHub: Add file > Upload files.
+5. Arraste os arquivos.
+6. Clique em Commit changes.
+
+A página principal do GitHub deve mostrar:
+- index.html
+- style.css
+- script.js
+- netlify.toml
+- assets
+- netlify
+
+Dentro de netlify:
+functions/inscricao.js
+
+CONFIGURAÇÃO NO NETLIFY:
+1. Project configuration > Environment variables.
+2. Add a variable.
+3. Key: DISCORD_WEBHOOK_URL
+4. Value: cole o webhook.
+5. Save.
+6. Deploys & logs > Trigger deploy > Clear cache and deploy site.
